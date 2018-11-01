@@ -1,0 +1,273 @@
+	.contentalign
+	{
+		display:inline-block;
+	}
+	
+	nav
+	{
+		vertical-align:top;
+		text-align:center;
+		width:20%;
+		margin-right:1%;
+	}
+	
+	#menu
+	{
+		display:none;
+		text-align:center;
+		list-style-type:none;
+		margin:0;
+		margin-left:10%;
+		padding:2%;
+		width:100%;
+		text-align:center;
+		background-color:black;
+		margin-bottom:1%;
+	}
+	
+	#menu li
+	{
+		background-color:#6F6F6F;
+		width:90%;
+		padding:5%;
+		margin-top:1%;
+		text-align:center;
+		font-family:"Poiret One";
+		font-size:20px;
+	}
+	
+	#menu li img
+	{
+		width:25%;
+		vertical-align:middle;
+	}
+	
+	#menu a
+	{
+		color:white;
+		text-decoration:none;
+	}
+	
+	#menu a li:hover
+	{
+		background-color:#A2A2A2;
+	}
+	
+	#menuicon
+	{
+		opacity:0.7;
+		width:50%;
+	}
+	
+	#content h2
+	{
+		text-align:center;
+		margin-bottom:5%;
+	}
+	
+	#content
+	{
+		margin-left:2%;
+		width:70%;
+		padding-left:2%;
+		font-family:"Roboto";
+		color:white;
+		text-shadow:1px 1px black;
+	}
+	
+	#content .piesa
+	{
+		margin-top:2%;
+		background-color: rgba(255, 255, 255, 0.6);
+		padding-left:5%;
+		padding-bottom:3%;
+		padding-top:1%;
+		border-radius:1em;
+	}
+	
+	#content .piesa h3
+	{
+		margin-top:1%;
+	}
+	
+	#content .piesa img
+	{
+		width:20%;
+	}
+	
+	#content .alinierepiesa
+	{
+		display:inline-block;
+		vertical-align:middle;
+		margin-right:10%;
+	}
+	
+	#content .alinierepiesa a
+	{
+		display:list-item;
+		list-style-type:none;
+		margin-top:10%;
+		text-shadow:none;
+	}
+	
+	footer
+	{
+		margin-top:2%;
+		width:100%;
+		background-color:black;
+		padding:2%;
+		font-family:"Lobster";
+	}
+	
+	@media screen and (min-width: 600px) {
+		#menu 
+		{
+			display:block;
+			text-align:left;
+		}
+	
+		#menuicon
+		{
+			display:none;
+		}
+	
+	}
+	
+	#settings label
+	{
+		margin-left:5%;
+		color:white;
+		margin-right:1em;
+	}
+	
+	.inp
+	{
+		max-width:40%;
+		padding:4px;
+		margin-bottom:1em;
+	}
+	
+	.inp:focus
+	{
+		transition:all 1s;
+		background-color:#99FFFF;
+	}
+	
+		
+	#save
+	{
+		margin-left:5%;
+		font-family:"Roboto";
+		padding:10px;
+		background-color:#98D8E8;
+	}
+	
+	#deletebutton
+	{
+		margin-left:5%;
+		font-family:"Roboto";
+		padding:10px;
+		background-color:#98D8E8;
+	}
+	
+	/* Audioplayer */
+	
+	#AP
+	{
+		display:none;
+	}
+	
+	.APpositioning
+	{
+		display:inline-block;
+	}
+	
+	#APplay
+	{
+		margin-top:0;
+		margin-left:30%;
+	}
+	
+	#audioplayer
+	{
+		background: red; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(black, white); /* Standard syntax */
+		border-radius:15px;
+		padding:1em;
+		padding-left:2em;
+		border:2px solid white;
+		width:70%;
+	}
+	
+	#APplay img
+	{
+		width:4em;
+		height:4em;
+	}
+	
+	#APpause img
+	{
+		height:4em;
+		width:4em;
+	}
+	
+	#APpause
+	{
+		margin-top:0;
+		margin-left:30%;
+		display:none;
+	}
+	
+	#APrate
+	{
+		background-color:grey;
+		padding:4px;
+		color:white;
+	}
+	
+	#APtime
+	{
+		padding:0;
+		margin:0;
+		font-size:4em;
+	}
+
+	
+	.songs
+	{
+		background-color:blue;
+	}
+	
+	.active
+	{
+		background-color:red;
+	}
+	
+	#nexttrackbut
+	{
+		padding:4px;
+		background-color:grey;
+	}
+	
+	#repeatbut
+	{
+		vertical-align:middle;
+		height:2em;
+		padding:4px;
+	}
+	
+	.songs
+	{
+		margin-top:2em;
+		background-color:#ECECEC;
+		height:5em;
+		width:70%;
+	}
+	
+	.active
+	{
+		background-color:#C0ECF7;
+	}

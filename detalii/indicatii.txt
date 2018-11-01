@@ -1,0 +1,23 @@
+motor de cautare piese/albume cu categorii(filtru)
+	-inclusiv gen,cuvinte din titlu sau din text
+	-membrii orhestrei etc.
+ascultare trailer piesa(la fel ca ascultare piesa)
+download trailere
+creare si logare 
+browse users online
+talk
+forum..
+eliminare cont propriu(setari)
+ascultare piesa cu un player propriu 
+player audio propriu(cu redare,pause/continue/avans rapid inainte si inapoi)
+PIESELE NU POT FI DOWNLOADATE IN TOTAL DE USER(Doar trailere)
+Sold din care se scade la fiecare ascultare
+In cazul in care nu avem sold atunci mesaj de reincarcare
+REASCULTAREA costa mai putin 
+creare sterge si modificare playlisturi
+creare stergere categorii sau subcategorii de piese
+modificare arbore de categorii
+montare/demontare servere distante de baze de date
+chestionar unde sa adauge piesa daca nu este in nicio categorie
+adaugare eliminare mutare piese cu chestionar etc.
+editare eliminare delogare restrictionare useri talk

@@ -1,0 +1,84 @@
+
+	body
+	{
+		margin:0;
+		color:white;
+		background-image:url("images/bg.gif");
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+	}
+
+	header
+	{
+		width:100%;
+		min-height:20%;
+		margin-bottom:2%;
+	}
+	
+	header .headeralign
+	{
+		display:inline-block;
+		margin-bottom:1%;
+	}
+	
+	.headeralign:first-child
+	{
+		font-family:"Poiret One";
+		margin-top:2.5%;
+		font-size:3em;
+		margin-left:5%;
+	}
+	
+	#searchbox
+	{
+		float:right;
+		margin-top:2%;
+		margin-right:0%;
+		min-width:25%;
+		font-family:"Poiret One";
+	}
+	
+	#casutasearch
+	{
+		padding:1%;
+	}
+	
+	#searchtext
+	{
+		padding-right:5%;
+		font-family:"Poiret One";
+		font-size:1.5em;
+	}
+	
+	#lupa
+	{
+		vertical-align:middle;
+		margin-left:1%;
+		width:7%;
+	}
+	
+	header a
+	{
+		color:white;
+		text-decoration:none;
+		font-size:1.1em;
+		font-family:"Poiret One";
+	}
+	
+	@media screen and (max-width: 600px) {
+		#searchbox
+		{
+			float:none;
+		}
+		
+		header
+		{
+			text-align:center;
+		}
+		
+		.headeralign
+		{
+			display:block;
+			width:100%;
+		}
+	}

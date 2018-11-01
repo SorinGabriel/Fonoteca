@@ -1,0 +1,71 @@
+
+	body
+	{
+		background-image:url("images/backgroundreg.jpg");
+		background-attachment:fixed;
+		background-size:cover;
+		background-repeat:no-repeat;
+		margin:0;
+		height:100%;
+		width:100%;
+	}
+	
+	#regpan
+	{
+		min-width:40%;
+		background-color:rgba(0,0,0,0.5);
+		height:90%;
+		margin-left:5%;
+		margin-top:2%;
+		margin-bottom:5%;
+		position:fixed;
+		border-radius:10px;
+		font-family:"Roboto";
+		text-align:left;
+		color:white;
+	}
+	
+	#regpan a
+	{
+		color:white;
+	}
+	
+	#regpan a:visited
+	{
+		color:white;
+	}
+	
+	#regpan h1
+	{
+		margin-left:5%;
+		font-size:3em;
+		font-family:"Indie Flower";
+	}
+	
+	#regpan label
+	{
+		margin-left:5%;
+		color:white;
+		margin-right:1em;
+	}
+	
+	.inp
+	{
+		max-width:40%;
+		padding:4px;
+		margin-bottom:1em;
+	}
+	
+	.inp:focus
+	{
+		transition:all 1s;
+		background-color:#99FFFF;
+	}
+	
+	#regbuton
+	{
+		margin-left:5%;
+		font-family:"Roboto";
+		padding:10px;
+		background-color:#FFFD9A;
+	}

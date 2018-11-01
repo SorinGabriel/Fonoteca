@@ -1,0 +1,1 @@
+Proiectul a fost facut de Sorin Marica,Teodor Marina,Ana Bucur,Andrei Scheau si Dan Nicolae.
